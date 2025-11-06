@@ -1,0 +1,49 @@
+# Build results
+bin/
+obj/
+out/
+debug/
+release/
+
+# Rider / VS Code / Visual Studio
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vs/
+
+# Logs
+*.log
+logs/
+LogFiles/
+
+# Configuration
+appsettings.*.json
+secrets.json
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Packaging
+*.nupkg
+*.snupkg
+
+# Test output
+TestResults/
+*.coverage
+*.coveragexml
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.lock
+
+# Kafka local state (if any)
+kafka-logs/
+zookeeper-data/
